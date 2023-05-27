@@ -1,129 +1,112 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/CCS_FOR_NEW_SITE.css">
     <title>Лаба 1-2-3</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="file:///C:/Users/Eugene/Desktop/Сайт/1.html">Домой</a></li>
-                <li><a href="">Вконтакте</a></li>
-                <li><a href="">Email</a></li>
-                <li><a href="../File_For_Dowland/10091.rar" download>Скачать</a></li>
-                <li><a href="../HTML/FormRegistretionForNew.html">Регистрация</a></li>
-                <li><a href="#top">Сслыка на фото</a></li>                
+    <header class="header">
+            <ul class="sec_menu">
+                <li class="sec_menu"><a href="file:///C:/Users/Eugene/Desktop/Сайт/1.html" class="a_1">Домой</a></li>
+                <li class="sec_menu"><a href="" class="a_1">Вконтакте</a></li>
+                <li class="sec_menu"><a href=""  class="a_1">Email</a></li>
+                <li class="sec_menu"><a href="../File_For_Dowland/10091.rar" download class="a_1"> Скачать</a></li>
+                <li class="sec_menu"><a href="../HTML/FormRegistretionForNew.html" class="a_1">Регистрация</a></li>
+                <li class="sec_menu"><a href="#top" class="a_1">Сслыка на фото</a></li>                
             </ul>
-            <button>Кнокпка</button>
-        </nav>
     </header>
-    <hr>
-    <div>
-            <a href="https://vk.com/id495917058"><img src="../Photo_For_Site/10091.jpg" alt="" width="450" height="400" title="Это цыган"></a>
-             <i>Добрый день меня зовут Козич Евгений Сергеевич и я начал узиччать новый предмет под названием интернет приложения.</i>
-             <small>Это набросок моего так сказать резюме на чистом HTML без добавления стилей и других ухищерений.</small>
-             <strong>По заданию мне нужно показать пару различных видов теста в так что я вот привел различные виды</strong>
-             <ins>Еще пример текста</ins>
-    </div>
-    <hr>
-    <div>
-        <div>
-        <p>Ниже будет показака моя любимая музыка</p>
-        <div>
-            <audio controls>
+ <section class="hero">
+    <div class="box_text1">
+            <a href="https://vk.com/id495917058" class="her"><img src="../Photo_For_Site/10091.jpg" alt="" title="Это цыган" class="img_1"></a>
+           
+            <div>
+             <i class="text_1">Добрый день меня зовут Козич Евгений Сергеевич и я начал изучать новый предмет под названием интернет приложения.</i>
+            </div>
+  </section>
+<div>
+
+<div class="sec_section">
+  <div class="text_6">Моя музыка</div>
+            <audio controls class="music">
                 <source src="../Music_For_Site/MVKO_-_GRUDGE_feat_AK3K_70177200.mp3" type="audio/ogg; codecs=vorbis" >
-              </audio>
-        </div>
-    </div>
-    </div>
-    <hr>
-     <div>
-    <video id="top" controls width="710" height="538" poster="/examples/media/martynko.png" preload="none" title="Видио которое у меня нашлось ">
+            </audio>      
+  </div>
+
+     <div class="sec_section_1">
+    <video id="top" controls width="710" height="538" poster="/examples/media/martynko.png" preload="none" title="Видио которое у меня нашлось " class="vidio">
         <source src="../Vidio_For_Site/Billi_Herengron.mp4" type="video/mp4" >
       </video>
-      <p>Это видио которое было у меня на компьютере</p>
     </div>
-    <hr>
-    <div>
-        <ul>
+    
+    <div class="sec_section_2">
+        <ul class="spisok">
             <li>Не придумал </li>
             <li>Списка</li>
             <li>Так что просто накидаю</li>
             <li>Чегонибудь</li>
           </ul>
     </div>
-    <hr>
-    <div>
-        <h1>Здесь будут показана таблица моих любимых игр</h1>
+   
+
+    <div >
+        <h1 class="games_1">Здесь будут показана таблица моих любимых игр</h1>
         <div>
-        <table>
-            <colgroup>
-              <col span="2" style="background:rgb(255, 0, 242)"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
-              <col style="background-color:rgb(71, 185, 42)"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
-            </colgroup>
-            <tr>
-              <th>№ п/п</th>
-              <th>Название</th>
-              <th>Жанр</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Дота</td>
-              <td>Стратегия</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>КС ГО</td>
-              <td>Не помню</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>КС ГО</td>
-                <td>Не помню</td>
-              </tr>
+          <table class="table">
+            <thead>
               <tr>
-                <td>2</td>
-                <td>КС ГО</td>
-                <td>Не помню</td>
+                <th>Название</th>
+                <th>Дата релиза</th>
+                <th>Игроки</th>
+                <th>Популярны</th>
+                <th>Патчей</th>
+                <th>Доход</th>
+                <th>Доход в месяц</th>
               </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Геншин</td>
+                <td>2021</td>
+                <td>15м</td>
+                <td>везде</td>
+                <td>8</td>
+                <td>30м</td>
+                <td>$500000</td>
+              </tr>
+           
+            </tbody>
+          </table>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Название</th>
+                <th>Дата релиза</th>
+                <th>Игроки</th>
+                <th>Популярны</th>
+                <th>Патчей</th>
+                <th>Доход</th>
+                <th>Доход в месяц</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Геншин</td>
+                <td>2021</td>
+                <td>15м</td>
+                <td>везде</td>
+                <td>8</td>
+                <td>30м</td>
+                <td>$500000</td>
+              </tr>
+         
+            </tbody>
           </table>
         </div>
     </div>
-    <hr>
-    <div>
-      <table>
-          <colgroup>
-            <col span="2" style="background:rgb(255, 0, 242)"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
-            <col style="background-color:rgb(71, 185, 42)"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
-          </colgroup>
-          <tr>
-            <th colspan="3">Для столбцов обьеденение</th>
-          
-          </tr>
-          <tr>
-            <td rowspan="3">обьеденение строк</td>
-            <td> ghbdtn </td>
-            <td>asdad </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>КС ГО</td>
-          </tr>
-          <tr>
-              <td>2</td>
-              <td>КС ГО</td>
-            </tr>
-            <tr>
-              <td>обьеденение строк</td>
-              <td>2</td>
-              <td>КС ГО</td>
-            </tr>
-        </table>
-      </div>
-
+ 
 </body>
 
 </html>
